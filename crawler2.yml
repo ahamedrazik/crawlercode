@@ -12,7 +12,7 @@ Resources:
       DatabaseName: crwler-ctf
       Description: creating crwler
       Name: ctg-fis-cf-crwler
-      Role: arn:aws:iam::472831976827:role/Ctg-fis-razik-glue-role
+      Role: rolename
       Targets: 
         S3Targets:
           - Path: s3://classifier123/salesdata/
